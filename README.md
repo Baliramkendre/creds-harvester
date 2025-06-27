@@ -23,3 +23,7 @@ SPECIAL HANDLING:
 ```bash
 python parser.py input_data.txt
 ```
+## Test cases
+```bash
+python3 -m unittest test_parser.py
+```
