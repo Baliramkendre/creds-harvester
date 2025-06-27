@@ -1,0 +1,918 @@
+[
+    {
+        "line": "'user1@example.com:http://example.com",
+        "output": null
+    },
+    {
+        "line": "user2@example.com:",
+        "output": null
+    },
+    {
+        "line": "http://example.com:user3",
+        "output": null
+    },
+    {
+        "line": "user4@example.com:user4",
+        "output": {
+            "email": "user4@example.com",
+            "password": "user4"
+        }
+    },
+    {
+        "line": "http://example.com;",
+        "output": null
+    },
+    {
+        "line": "http://example.com/",
+        "output": null
+    },
+    {
+        "line": "android://TOKEN1@com.example.app/:user5",
+        "output": null
+    },
+    {
+        "line": "android://TOKEN1@com.example.app/:user5",
+        "output": null
+    },
+    {
+        "line": "user6@example.com:user6",
+        "output": {
+            "email": "user6@example.com",
+            "password": "user6"
+        }
+    },
+    {
+        "line": "http://example.com:user7@example.com:user7",
+        "output": {
+            "email": "user7@example.com",
+            "password": "user7",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:80/:user8:user8",
+        "output": {
+            "email": "user8",
+            "password": "user8",
+            "url": "http://example.com:80/"
+        }
+    },
+    {
+        "line": "http://example.com",
+        "output": null
+    },
+    {
+        "line": "http://example.com/:user9: ",
+        "output": null
+    },
+    {
+        "line": "http://192.0.2.1/:user10: ",
+        "output": null
+    },
+    {
+        "line": "user11@example.com:user11",
+        "output": {
+            "email": "user11@example.com",
+            "password": "user11"
+        }
+    },
+    {
+        "line": "user12@example.com:user12",
+        "output": {
+            "email": "user12@example.com",
+            "password": "user12"
+        }
+    },
+    {
+        "line": "user13@example.com  user14",
+        "output": {
+            "email": "user13@example.com",
+            "password": "user14"
+        }
+    },
+    {
+        "line": "user15@example.com:sdsdsdsd",
+        "output": {
+            "email": "user15@example.com",
+            "password": "sdsdsdsd"
+        }
+    },
+    {
+        "line": "user16@example.com:dsdsd",
+        "output": {
+            "email": "user16@example.com",
+            "password": "dsdsd"
+        }
+    },
+    {
+        "line": "user17@example.com/user17",
+        "output": null
+    },
+    {
+        "line": "user18@example.com:user18",
+        "output": {
+            "email": "user18@example.com",
+            "password": "user18"
+        }
+    },
+    {
+        "line": "user19@example.com:user19",
+        "output": {
+            "email": "user19@example.com",
+            "password": "user19"
+        }
+    },
+    {
+        "line": "user20@example.com|sdsjdhs/",
+        "output": {
+            "email": "user20@example.com",
+            "password": "sdsjdhs/"
+        }
+    },
+    {
+        "line": "user21@example.com;user21",
+        "output": {
+            "email": "user21@example.com",
+            "password": "user21"
+        }
+    },
+    {
+        "line": "user22@example.com:dsdsdsd",
+        "output": {
+            "email": "user22@example.com",
+            "password": "dsdsdsd"
+        }
+    },
+    {
+        "line": "user23@example.com|user23",
+        "output": {
+            "email": "user23@example.com",
+            "password": "user23"
+        }
+    },
+    {
+        "line": "user24@example.com:user24",
+        "output": {
+            "email": "user24@example.com",
+            "password": "user24"
+        }
+    },
+    {
+        "line": "user26@example.com:123456789",
+        "output": {
+            "email": "user26@example.com",
+            "password": "123456789"
+        }
+    },
+    {
+        "line": "user27@example.com:user27",
+        "output": {
+            "email": "user27@example.com",
+            "password": "user27"
+        }
+    },
+    {
+        "line": "http://example.com:user58:user58",
+        "output": {
+            "email": "user58",
+            "password": "user58",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user59@example.com:user59",
+        "output": {
+            "email": "user59@example.com",
+            "password": "user59",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "android://TOKEN2@com.instagram.android/:user60:user61",
+        "output": {
+            "email": "user60",
+            "password": "user61",
+            "url": "android://TOKEN2@com.instagram.android/"
+        }
+    },
+    {
+        "line": "android://TOKEN2@com.instagram.android:user60:user61",
+        "output": {
+            "email": "user60",
+            "password": "user61",
+            "url": "android://TOKEN2@com.instagram.android"
+        }
+    },
+    {
+        "line": "http://example.com:user60:user61",
+        "output": {
+            "email": "user60",
+            "password": "user61",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user60@example.com:user61:http://example.com",
+        "output": {
+            "email": "user60@example.com",
+            "password": "user61",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user60@example.com:user61:http://example.com",
+        "output": {
+            "email": "user60@example.com",
+            "password": "user61",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user62@example.com:user62",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user63@example.com:user63",
+        "output": {
+            "email": "user63@example.com",
+            "password": "user63",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user63@example.com:user63:http://example.com",
+        "output": {
+            "email": "user63@example.com",
+            "password": "user63",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user63@example.com:user63 | http://example.com",
+        "output": {
+            "email": "user63@example.com",
+            "password": "user63",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user63@example.com user63  http://example.com",
+        "output": {
+            "email": "user63@example.com",
+            "password": "user63",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62://example.com/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62",
+            "url": "//example.com/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@://example.com/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "//example.com/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ | //example.com/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "//example.com/register"
+        }
+    },
+    {
+        "line": "//example.com/register:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "//example.com/register"
+        }
+    },
+    {
+        "line": "example.com:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com | user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com : user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com  user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com | user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@:example.com",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@  example.com",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ | example.com",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@:example.com:2003/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com:2003/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ example.com:2003/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com:2003/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ | example.com:2003/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com:2003/register"
+        }
+    },
+    {
+        "line": "example.com:2003/register:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com:2003/register"
+        }
+    },
+    {
+        "line": "example.com:2003/register user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com:2003/register"
+        }
+    },
+    {
+        "line": "example.com:2003/register | user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com:2003/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@:example.com/:2003/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/:2003/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ example.com/:2003/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/:2003/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ | example.com/:2003/register",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/:2003/register"
+        }
+    },
+    {
+        "line": "example.com/:2003/register:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/:2003/register"
+        }
+    },
+    {
+        "line": "example.com/:2003/register user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/:2003/register"
+        }
+    },
+    {
+        "line": "example.com/:2003/register | user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/:2003/register"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@:example.com",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ example.com",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ | example.com",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "example.com | user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@:example.com/",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ example.com/",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/"
+        }
+    },
+    {
+        "line": "user62@example.com:user62@ | example.com/",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/"
+        }
+    },
+    {
+        "line": "example.com/:user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/"
+        }
+    },
+    {
+        "line": "example.com/ user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/"
+        }
+    },
+    {
+        "line": "example.com/ | user62@example.com:user62@",
+        "output": {
+            "email": "user62@example.com",
+            "password": "user62@",
+            "url": "example.com/"
+        }
+    },
+    {
+        "line": "http://example.com:86 | 2082936:user64",
+        "output": {
+            "email": "2082936",
+            "password": "user64",
+            "url": "http://example.com:86"
+        }
+    },
+    {
+        "line": "http://example.com:user65@example.com:user65",
+        "output": {
+            "email": "user65@example.com",
+            "password": "user65",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user66:user66$",
+        "output": {
+            "email": "user66",
+            "password": "user66$",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com  user67:user68",
+        "output": {
+            "email": "user67",
+            "password": "user68",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://192.0.2.2/  user69:user70",
+        "output": {
+            "email": "user69",
+            "password": "user70",
+            "url": "http://192.0.2.2/"
+        }
+    },
+    {
+        "line": "http://192.0.2.2:80  user69:user70",
+        "output": {
+            "email": "user69",
+            "password": "user70",
+            "url": "http://192.0.2.2:80"
+        }
+    },
+    {
+        "line": "http://192.0.2.2:80/  user69:user70",
+        "output": {
+            "email": "user69",
+            "password": "user70",
+            "url": "http://192.0.2.2:80/"
+        }
+    },
+    {
+        "line": "http://example.com | user71@example.com:user72",
+        "output": {
+            "email": "user71@example.com",
+            "password": "user72",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user73:user74",
+        "output": {
+            "email": "user73",
+            "password": "user74",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com|user75@example.com:user76",
+        "output": {
+            "email": "user75@example.com",
+            "password": "user76",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user77@example.com:user78",
+        "output": {
+            "email": "user77@example.com",
+            "password": "user78",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user79:user80",
+        "output": {
+            "email": "user79",
+            "password": "user80",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com user81@example.com:user82",
+        "output": {
+            "email": "user81@example.com",
+            "password": "user82",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user83:user84",
+        "output": {
+            "email": "user83",
+            "password": "user84",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "android://TOKEN3@com.facebook.katana/:user85:user86",
+        "output": {
+            "email": "user85",
+            "password": "user86",
+            "url": "android://TOKEN3@com.facebook.katana/"
+        }
+    },
+    {
+        "line": "http://example.com:user87:user88",
+        "output": {
+            "email": "user87",
+            "password": "user88",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user89@example.com:user90",
+        "output": {
+            "email": "user89@example.com",
+            "password": "user90",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user91@example.com:user92",
+        "output": {
+            "email": "user91@example.com",
+            "password": "user92",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user93@example.com:user94",
+        "output": {
+            "email": "user93@example.com",
+            "password": "user94",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "android://TOKEN4@wp.wattpad/:user95@example.com:user96",
+        "output": {
+            "email": "user95@example.com",
+            "password": "user96",
+            "url": "android://TOKEN4@wp.wattpad/"
+        }
+    },
+    {
+        "line": "http://example.com:user97@example.com:user98",
+        "output": {
+            "email": "user97@example.com",
+            "password": "user98",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://192.0.2.3:8848/nacos/index.html:user99:user99",
+        "output": {
+            "email": "user99",
+            "password": "user99",
+            "url": "http://192.0.2.3:8848/nacos/index.html"
+        }
+    },
+    {
+        "line": "http://example.com:user100:niyayaniniyayani",
+        "output": {
+            "email": "user100",
+            "password": "niyayaniniyayani",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user101;user102",
+        "output": {
+            "email": "user101",
+            "password": "user102",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com;user103;@user104",
+        "output": {
+            "email": "user103",
+            "password": "@user104",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "android://TOKEN1@com.example.app/:user5:user105",
+        "output": {
+            "email": "user5",
+            "password": "user105",
+            "url": "android://TOKEN1@com.example.app/"
+        }
+    },
+    {
+        "line": "user106@example.com:user107 http://example.com",
+        "output": {
+            "email": "user106@example.com",
+            "password": "user107",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:UNKNOWN:user108",
+        "output": {
+            "email": "UNKNOWN",
+            "password": "user108",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user109@example.com:P@55w0rd123",
+        "output": {
+            "email": "user109@example.com",
+            "password": "P@55w0rd123",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://192.0.2.4:5678/admin/dashboard:user110@example.com:user111",
+        "output": {
+            "email": "user110@example.com",
+            "password": "user111",
+            "url": "http://192.0.2.4:5678/admin/dashboard"
+        }
+    },
+    {
+        "line": "http://localhost:40120/auth:user112:user113",
+        "output": {
+            "email": "user112",
+            "password": "user113",
+            "url": "http://localhost:40120/auth"
+        }
+    },
+    {
+        "line": "http://192.0.2.5:40120/auth:user114:user113",
+        "output": {
+            "email": "user114",
+            "password": "user113",
+            "url": "http://192.0.2.5:40120/auth"
+        }
+    },
+    {
+        "line": "http://192.0.2.6:8080/byod/templatePage/20150407091019946/guestRegister.jsf:user115:user116",
+        "output": {
+            "email": "user115",
+            "password": "user116",
+            "url": "http://192.0.2.6:8080/byod/templatePage/20150407091019946/guestRegister.jsf"
+        }
+    },
+    {
+        "line": "http://192.0.2.7:88/:admin:admin2018",
+        "output": {
+            "email": "admin",
+            "password": "admin2018",
+            "url": "http://192.0.2.7:88/"
+        }
+    },
+    {
+        "line": "http://example.com:TMAFTL01:user117",
+        "output": {
+            "email": "TMAFTL01",
+            "password": "user117",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user118;user119;http://example.com",
+        "output": {
+            "email": "user118",
+            "password": "user119",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user120@example.com:user121:android://TOKEN5@net.lovoo.android/",
+        "output": {
+            "email": "user120@example.com",
+            "password": "user121",
+            "url": "android://TOKEN5@net.lovoo.android/"
+        }
+    },
+    {
+        "line": "http://example.com:user122@example.com:user123",
+        "output": {
+            "email": "user122@example.com",
+            "password": "user123",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:TMAFTL01:user117",
+        "output": {
+            "email": "TMAFTL01",
+            "password": "user117",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user122@example.com:user123:http://example.com",
+        "output": {
+            "email": "user122@example.com",
+            "password": "user123",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user122@example.com:user123  http://example.com",
+        "output": {
+            "email": "user122@example.com",
+            "password": "user123",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "user122@example.com:user123 | http://example.com",
+        "output": {
+            "email": "user122@example.com",
+            "password": "user123",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "http://example.com:user124@example.com:user125",
+        "output": {
+            "email": "user124@example.com",
+            "password": "user125",
+            "url": "http://example.com"
+        }
+    },
+    {
+        "line": "192.0.2.8:admin:admin2018",
+        "output": {
+            "email": "admin",
+            "password": "admin2018",
+            "ip": "192.0.2.8"
+        }
+    }
+]
