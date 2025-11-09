@@ -1,6 +1,7 @@
 # Leak Data Parser  
 A Python CLI tool for extracting credentials from leaked data sources.
 
+
 INFORMATIVE FEATURES:  
 - Parses email:password pairs with optional URL.  
 - Recognizes IP-based credentials (IP:user:pass).  
